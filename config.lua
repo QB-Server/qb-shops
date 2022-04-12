@@ -435,7 +435,78 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
-    
+
+    -- Rob'sLiquor Locations
+    ["robsliquor"] = {
+        ["label"] = "Shop",
+        ["coords"] = vector4(-1221.58, -908.15, 12.33, 35.49),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["robsliquor2"] = {
+        ["label"] = "Shop",
+        ["coords"] = vector4(-1486.59, -377.68, 40.16, 139.51),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["robsliquor3"] = {
+        ["label"] = "Shop",
+        ["coords"] = vector4(-2966.39, 391.42, 15.04, 87.48),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["robsliquor4"] = {
+        ["label"] = "Shop",
+        ["coords"] = vector4(1165.17, 2710.88, 38.16, 179.43),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
+    ["robsliquor5"] = {
+        ["label"] = "Shop",
+        ["coords"] = vector4(1134.2, -982.91, 46.42, 277.24),
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipcolor"] = 0
+    },
+
     -- Ammunation Locations
     ["ammunation"] = {
         ["label"] = "Ammunation",
