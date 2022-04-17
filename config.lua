@@ -235,6 +235,32 @@ Config.Products = {
             requiresLicense = true
         },
     },
+    ["blackmarket"] = {
+        [1] = {
+            name = "weapon_knife",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "weapon_bat",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "weapon_hatchet",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+    },
 }
 
 Config.Locations = {
@@ -674,6 +700,21 @@ Config.Locations = {
         ["targetLabel"] = "Open Weed Shop",
         ["products"] = Config.Products["weedshop"],
         ["showblip"] = true,
+        ["blipsprite"] = 140,
+        ["blipcolor"] = 0
+    },
+
+    -- Blackmarket Location
+    ["blackmarket"] = {
+        ["label"] = "Black Market Dealer",
+        ["coords"] = vector4(4949.11, -5893.44, 13.4, 149.77),
+        ["ped"] = 'ig_g',
+        ["scenario"] = "PROP_HUMAN_SEAT_CHAIR",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fa-solid fa-shop-lock",
+        ["targetLabel"] = "Open Black Market",
+        ["products"] = Config.Products["blackmarket"],
+        ["showblip"] = false,
         ["blipsprite"] = 140,
         ["blipcolor"] = 0
     },
