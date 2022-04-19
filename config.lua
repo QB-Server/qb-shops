@@ -261,6 +261,32 @@ Config.Products = {
             slot = 3,
         },
     },
+    ["weapondealer"] = {
+        [1] = {
+            name = "weapon_knife",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "weapon_bat",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "weapon_hatchet",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+    },
 }
 
 Config.Locations = {
@@ -717,5 +743,20 @@ Config.Locations = {
         ["showblip"] = false,
         ["blipsprite"] = 140,
         ["blipcolor"] = 0
+    },
+
+  -- Weapon Dealer Location
+    ["weapondealer"] = {
+       ["label"] = "Weapon Dealer",
+       ["coords"] = vector4(3094.73, 6002.36, 136.19, 81.05),
+       ["ped"] = 'ig_g',
+       ["scenario"] = "PROP_HUMAN_SEAT_CHAIR",
+       ["radius"] = 1.5,
+       ["targetIcon"] = "fa-solid fa-shop-lock",
+       ["targetLabel"] = "Open Shop",
+       ["products"] = Config.Products["weapondealer"],
+       ["showblip"] = false,
+       ["blipsprite"] = 140,
+       ["blipcolor"] = 0
     },
 }
